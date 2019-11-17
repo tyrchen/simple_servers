@@ -1,0 +1,12 @@
+[package]
+name = "noise"
+version = "0.1.0"
+authors = ["Tyr Chen <tyr.chen@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2"
+lazy_static = "1.4.0"
+snow = { version = "0.6.1", features=["ring-accelerated"]}
