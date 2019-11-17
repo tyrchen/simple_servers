@@ -1,6 +1,10 @@
 language: rust
 dist: xenial
 rust: stable
+before_install:
+  - rustup component add clippy
+  - rustup component add rustfmt
+
 branches:
   only:
     - master
